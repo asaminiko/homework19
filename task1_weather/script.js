@@ -19,7 +19,6 @@ let parent = document.getElementById('parent')
 let widget = document.createElement('p')
 let button = document.createElement('button')
 button.id = 'myBtn'
-widget.id = 'widget'
 button.textContent = 'Оновити дані'
 parent.appendChild(widget)
 parent.appendChild(button)

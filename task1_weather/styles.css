@@ -1,0 +1,14 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#myBtn {
+  background-color: rgb(180, 215, 152);
+  border: none;
+  height: 30px;
+}
+#parent {
+  border: 2px solid slategray;
+  width: 250px;
+  text-align: center;
+  background-color: rgb(233, 199, 213);
+}
