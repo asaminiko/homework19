@@ -2,7 +2,7 @@
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 #myBtn {
-  background-color: rgb(180, 215, 152);
+  background-color: rgb(198, 153, 176);
   border: none;
   height: 30px;
 }
@@ -10,5 +10,5 @@
   border: 2px solid slategray;
   width: 250px;
   text-align: center;
-  background-color: rgb(233, 199, 213);
+  background: linear-gradient(to right, rgb(255, 255, 255), pink);
 }

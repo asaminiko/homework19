@@ -9,7 +9,11 @@ const getAsync = async (lat, lon, appid, units) => {
     )
     if (!response.ok) throw new Error(`Помилка: ${response.status}`)
     const weather = await response.json()
-    widget.textContent = `Температура: ${weather.main.temp}°C`
+    console.log(weather.main)
+    widget.textContent = `Температура: ${weather.main.temp}°C 
+    \n Відчувається як ${weather.main.feels_like}°C
+    \n макс.${weather.main.temp_max}°C 
+    \n мін.${weather.main.temp_min}°C `
   } catch (error) {
     console.error(`Помилка: ${error.message}`)
   }
